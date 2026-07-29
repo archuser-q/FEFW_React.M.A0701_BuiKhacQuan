@@ -13,12 +13,12 @@ function Header({ currentUser, onChangeUser }) {
                     </NavLink>
                 </li>
                 <li className='nav-item'>
-                    <NavLink to="" className={tabClassName}>
+                    <NavLink to="/contacts" className={tabClassName}>
                         Contacts
                     </NavLink>
                 </li>
                 <li className='nav-item'>
-                    <NavLink to="" className={tabClassName}>
+                    <NavLink to="/preferences" className={tabClassName}>
                         Preferences
                     </NavLink>
                 </li>
