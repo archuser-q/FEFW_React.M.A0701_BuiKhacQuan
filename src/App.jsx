@@ -42,7 +42,7 @@ function MessagesPage() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/FEFW_React.M.A0701_BuiKhacQuan/">
       <Routes>
         <Route path="/" element={<MessagesPage />} />
         <Route path="/contacts" element={<UnderConstruction />} />
