@@ -8,7 +8,7 @@ function Header({ currentUser, onChangeUser }) {
         <nav className='navbar navbar-expand navbar-light bg-white border-bottom py-2'>
             <ul className='nav mr-auto'>
                 <li className='nav-item'>
-                    <NavLink to="" className={tabClassName}>
+                    <NavLink to="/" className={tabClassName}>
                         Messages
                     </NavLink>
                 </li>
